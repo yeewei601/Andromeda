@@ -1,141 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    font-family: 'Satisfy', cursive;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  font-family: "Satisfy", cursive;
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul {
-    margin: 0px;
+  margin: 0px;
 }
 
-.nav li{
-    display: inline;
+.nav li {
+  display: inline;
 }
 
-.nav a{
-    display: inline-block;
-    padding: .5em;
-    align-content: right;
-    color:rgb(226, 226, 226);
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  align-content: right;
+  color: rgb(226, 226, 226);
 }
 
 .main-nav {
-    text-align: right;
-    font-size: larger;
-    font-weight: bolder;
+  text-align: right;
+  font-size: larger;
+  font-weight: bolder;
 }
 
-.nav a:hover{
-    transform: scale(1.2);
+.nav a:hover {
+  transform: scale(1.2);
 }
 
-.main-header{
-    background-image: url(minimalist-design-thumbnail.jpg) ;
-    background-color: rgb(161, 159, 159);
-    background-size: cover;
-    padding-bottom: 10px;
-    background-blend-mode: multiply;
-    color:rgb(226, 226, 226);
-    text-align: center;
+.main-header {
+  background-image: url(minimalist-design-thumbnail.jpg);
+  background-color: rgb(161, 159, 159);
+  background-size: cover;
+  padding-bottom: 10px;
+  background-blend-mode: multiply;
+  color: rgb(226, 226, 226);
+  text-align: center;
 }
 
-.main-header h1{
-    font-size: 50px;
+.main-header h1 {
+  font-size: 50px;
 }
 
-.content-section{
-    margin: 30px;
+.content-section {
+  margin: 30px;
 }
 
-.container{
-    max-width: 500px ;
-    margin: 0 auto;
-    padding: 0 1.5em;
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
-.section-header{
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
+.section-header {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
 }
 
-.section-subheader{
-    font-family: 'Raleway', sans-serif;
-    font-size: medium;
-    font-size: 20px;
+.section-subheader {
+  font-family: "Raleway", sans-serif;
+  font-size: medium;
+  font-size: 20px;
 }
 
-.section-paragraph{
-    font-family: 'Open Sans', sans-serif;
+.section-paragraph {
+  font-family: "Open Sans", sans-serif;
 }
 
-.column{
-    width: 50%;
-    float: left;
-    padding: 10px;
+.column {
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
 
-.column img{
-    width: 50%;
-    margin: auto auto;
-    display: block;
+.column img {
+  width: 50%;
+  margin: auto auto;
+  display: block;
 }
 
-.general-section{
-    display: inline-block;
+.general-section {
+  display: inline-block;
 }
 
-.main-footer{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    color:rgb(226, 226, 226);
-    background: linear-gradient(to right, #9a8478, #1e130c); 
-    text-align: center;
+.main-footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(226, 226, 226);
+  background: linear-gradient(to right, #9a8478, #1e130c);
+  text-align: center;
 }
 
-.main-footer-nav{
-    font-size: larger;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-footer-nav {
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-nav{
-    display: flex;
-    justify-content: space-around;
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
 }
 
-.home-content{
-    background-image: url(make-a-difference.jpg);
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    margin: auto auto;
-    font-size: xx-large;
-    align-items: center;
+.home-content {
+  background-image: url(make-a-difference.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto auto;
+  font-size: xx-large;
+  align-items: center;
 }
 
-.home-content-header{
-    margin: 10px auto;
-    font-family: 'Pacifico', cursive;
-    color: rgb(49, 49, 49);
+.home-content-header {
+  margin: 10px auto;
+  font-family: "Pacifico", cursive;
+  color: rgb(49, 49, 49);
 }
 
-.home-content button{
-    font-size: large;
-    border-radius: 12px;
-    padding: 12px 28px;
-    background-size: cover;
-    text-align: center;
-    background-color: lightgrey;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
+.home-content button {
+  font-size: large;
+  border-radius: 12px;
+  padding: 12px 28px;
+  background-size: cover;
+  text-align: center;
+  background-color: lightgrey;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
 }
