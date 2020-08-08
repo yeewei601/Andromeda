@@ -40,7 +40,7 @@ body {
 }
 
 .main-header {
-  background-image: url(minimalist-design-thumbnail.jpg);
+  background-image: url(images/minimalist-design-thumbnail.jpg);
   background-color: rgb(161, 159, 159);
   background-size: cover;
   padding-bottom: 10px;
@@ -116,7 +116,7 @@ body {
 }
 
 .home-content {
-  background-image: url(make-a-difference.jpg);
+  background-image: url(images/make-a-difference.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   margin: auto auto;
