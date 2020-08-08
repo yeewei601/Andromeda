@@ -96,9 +96,10 @@ html, body {
 .main-footer{
     padding-bottom: 20px;
     padding-top: 20px;
-    color:rgb(226, 226, 226);
-    background: linear-gradient(to right, #9a8478, #1e130c); 
+    color:rgb(65, 65, 65);
+    background-image: url(make-a-difference.jpg);
     text-align: center;
+    font-size: 20px;
 }
 
 .main-footer-nav{
@@ -115,27 +116,27 @@ html, body {
 }
 
 .home-content{
-    background-image: url(make-a-difference.jpg);
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    margin: auto auto;
-    font-size: xx-large;
-    align-items: center;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
 }
 
 .home-content-header{
-    margin: 10px auto;
     font-family: 'Pacifico', cursive;
     color: rgb(49, 49, 49);
 }
 
 .home-content button{
-    font-size: large;
+    font-size: 30px;
     border-radius: 12px;
-    padding: 12px 28px;
-    background-size: cover;
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(227, 227, 227,.1);
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
+}
+
+.home-content button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
 }
