@@ -94,22 +94,12 @@ body {
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .main-footer{
     padding-bottom: 20px;
     padding-top: 20px;
-    color:rgb(65, 65, 65);
-    background-image: url(make-a-difference.jpg);
+    background-image: url(images/make-a-difference.jpg);
     text-align: center;
     font-size: 20px;
-=======
-.main-footer {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color: rgb(226, 226, 226);
-  background: linear-gradient(to right, #9a8478, #1e130c);
-  text-align: center;
->>>>>>> 42685189b62370f12bf640b1e2c95a47dc45fa0f
 }
 
 .main-footer-nav {
@@ -123,6 +113,10 @@ body {
 .footer-nav {
   display: flex;
   justify-content: space-around;
+}
+
+.footer-nav a{
+  color:rgb(53, 53, 53);
 }
 
 .home-content{
