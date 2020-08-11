@@ -18,40 +18,50 @@
       </nav>
       <h1>ANDROMEDA</h1>
     </header>
-    <h2>How it works?</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lectus
-      diam, mattis eget justo nec, dignissim faucibus tellus. Integer rhoncus
-      dapibus enim ut accumsan. Nunc volutpat blandit ultricies. Sed ac nisi a
-      urna condimentum eleifend ac ut nibh. Maecenas vitae justo interdum,
-      consectetur enim at, accumsan nisl. Donec vel augue ornare, accumsan
-      ligula molestie, viverra tortor. Donec vel accumsan tortor, non posuere
-      turpis. Mauris mollis at dui id fermentum. Pellentesque vehicula ante sit
-      amet orci semper tempor. Nam nunc sapien, finibus id nunc consectetur,
-      eleifend ultricies justo. Nulla vel facilisis dolor. Quisque consectetur
-      nulla sit amet egestas sollicitudin. Aliquam tempor eu augue a dictum.
+    <div class="home-content">
+      <h2 class="section-header">How it works?</h2>
+      <p class="section-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lectus
+        diam, mattis eget justo nec, dignissim faucibus tellus. Integer rhoncus
+        dapibus enim ut accumsan. Nunc volutpat blandit ultricies. Sed ac nisi a
+        urna condimentum eleifend ac ut nibh. Maecenas vitae justo interdum,
+        consectetur enim at, accumsan nisl. Donec vel augue ornare, accumsan
+        ligula molestie, viverra tortor. Donec vel accumsan tortor, non posuere
+        turpis. Mauris mollis at dui id fermentum. Pellentesque vehicula ante sit
+        amet orci semper tempor. Nam nunc sapien, finibus id nunc consectetur,
+        eleifend ultricies justo. Nulla vel facilisis dolor. Quisque consectetur
+        nulla sit amet egestas sollicitudin. Aliquam tempor eu augue a dictum.
     </p>
-    <form>
-      <div class="2column">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" /><br /><br />
-      </div>
-      <div class="2column">
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" /><br /><br />
-      </div>
-      <label for="age">Age:</label>
-      <input type="text" id="age" name="age" /><br /><br />
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" /><br /><br />
-      <label for="Syllabus">Syllabus:</label>
-      <input type="text" id="Syllabus" name="Syllabus" /><br /><br />
-      <label for="subject">Subject:</label>
-      <input type="text" id="subject" name="subject" /><br /><br />
-      <label for="date">Start Date:</label>
-      <input type="text" id="date" name="date" /><br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+      <form class="form section-paragraph">
+        <label for="fname" class="form-label">First name:</label>
+        <input type="text" id="fname" name="fname" class="form-input"/><br /><br />
+
+        <label for="lname" class="form-label">Last name:</label>
+        <input type="text" id="lname" name="lname" class="form-input"/><br /><br />
+
+        <label for="age" class="form-label">Age:</label>
+        <input type="number" id="age" name="age" min="13" class="form-input" /><br /><br />
+
+        <label for="email" class="form-label">Email:</label>
+        <input type="text" id="email" name="email" class="form-input"/><br /><br />
+
+        <label for="Syllabus" class="form-label">Syllabus:</label>
+        <input type="text" id="Syllabus" name="Syllabus" class="form-input"/><br /><br />
+
+        <label for="date" class="form-label">Start Date:</label>
+        <input type="date" id="date" name="date" class="form-input"/><br /><br />
+
+        <label for="subject" class="form-label subject">Subject:</label>
+        <select id="Subject" name="subject" class="form-input">
+          <option value="math">Math</option>
+          <option value="AddMath">Additional/Further Math</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="others">Others</option>
+
+        <input type="submit" value="Submit" class="submit-btn" />
+      </form>
+    </div>
     <footer class="main-footer">
       <div class="nav main-footer-nav">
         <ul class="nav footer-nav">
