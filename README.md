@@ -1,6 +1,6 @@
 # Tutoring-Business-Website
 
-This project works on building a website that offers tutoring services to students and is currently in progress. The link to the website is currently https://yeewei601.github.io/Tutoring-Business-Website/ and will be updated in the future
+This project works on building a website that offers tutoring services to students and is currently in progress. The link to the website is currently https://yeewei601.github.io/Andromeda/ and will be updated in the future
 
 ## Built With
 
