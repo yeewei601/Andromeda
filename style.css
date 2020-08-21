@@ -235,3 +235,26 @@ input[type="submit"] {
   border: solid black 3px;
   outline: none;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding: 50px;
+  border: solid black;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column img {
+  height: 200px;
+  width: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
